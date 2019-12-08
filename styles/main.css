@@ -74,4 +74,28 @@ MAIN
       border-radius: 10px;
     }
 
-  
+  /*---------------
+  ABOUT
+  -----------------*/
+  .about {
+    position: relative;
+    height: 450px;
+    background-color: #7299FE;
+  }
+
+    .about > p {
+      padding: 0 40px;
+      text-align: justify;
+      color: white;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .about > button {
+      margin: 20px 0 0 41px;
+      color: white;
+      border-radius: 20px;
+      padding: 18px 59px;
+      border: none;
+      background-color: #D16FFF;
+    }
