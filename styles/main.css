@@ -90,43 +90,26 @@ MAIN
       background-color: #9122FF;
       height: 420px;
     }
-  
-      .skills > .skills_container {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 10px 0 0 64px;
-      }
-
-        .skills > .skills_container > .skill {
-          margin: 0 65px 30px 0;
-        }
-
-          .skills > .skills_container > .skill > h3 {
-            font-size: 18px;
-            color: white;
-          }
-
-          .skills > .skills_container > .skill > div {
-            background-color: white;
-            border-radius: 20px;
-            width: 350px;
-            margin: 14px 0;
-          }
-
-            .skills > .skills_container > .skill > div > .progress-bar {
-              background-color: #57EFF9;
-              border-radius: 20px;
-              padding: 10px;
-              width: 185px;
-            }
 
     /*-----------------
     PORTFOLIO
     -----------------*/
     .portfolio {
         background-color: #FFD233;
-        height: 500px;
+        height: 400px;
     }
+
+      .portfolio > .portfolio_container {
+        width: 600px;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+
+        .portfolio > .portfolio_container > figure {
+          margin-bottom: 10px;
+        }
 
     /*-----------------
     CLIENTS
