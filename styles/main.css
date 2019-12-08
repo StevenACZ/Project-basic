@@ -1,0 +1,116 @@
+/*-----------------
+GLOBALS
+-----------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding: 28px 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;    
+    background-color: whitesmoke;
+}
+
+    body > div {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+img {
+    display: block;
+}
+
+/*-----------------
+MAIN
+-----------------*/
+
+    /*-----------------
+    HERO
+    -----------------*/
+    .hero {
+      height: 500px;
+    }
+
+      .hero > figure {
+        position: relative;
+        height: 100%;
+      }
+
+          .hero > figure > img {
+            height: 100%;
+            width: 100%;
+          }
+
+      .hero > h1 {
+        font-size: 64px;
+        font-weight: bold;
+        color: white;
+
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        margin-left: -160.08px;
+        z-index: 1;
+      }
+
+      .hero > div {
+          color: white;
+          position: absolute;
+          padding: 15px;
+          font-size: 25px;
+          top: 255px;
+          left: 300px;
+          z-index: 1;
+
+          background-color: rgba(114, 153, 254, 0.5);
+          border-radius: 10px;
+      }
+
+    /*-----------------
+    ABOUT
+    -----------------*/
+    .about {
+        position: relative;
+        height: 500px;
+        background-color: #7299FE;
+    }
+
+    /*-----------------
+    SKILLS
+    -----------------*/
+    .skills {
+        background-color: #9122FF;
+        height: 420px;
+    }
+
+    /*-----------------
+    PORTFOLIO
+    -----------------*/
+    .portfolio {
+        background-color: #FFD233;
+        height: 500px;
+    }
+
+    /*-----------------
+    CLIENTS
+    -----------------*/
+    .clients {
+        background-color: #3F4E62;
+        height: 200px;
+    }
+
+    /*-----------------
+    CONTACT
+    -----------------*/
+    .contact {
+        background-color: #1687A0;
+        height: 500px;
+    }
