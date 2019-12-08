@@ -172,3 +172,43 @@ MAIN
       justify-content: space-evenly;
       align-items: center;
     }
+    
+  /*-----------------
+  CONTACT
+  -----------------*/
+  .contact {
+    background-color: #1687A0;
+    height: 510px;
+  }
+
+    .contact > form {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 700px;
+      margin: 0 auto;
+    }
+
+      .contact > form > input {
+        border: 1px solid #BFBFBF;
+        margin-bottom: 25px;
+        padding: 20px 150px 20px 10px;
+      }
+
+      .contact > form > textarea {
+        border: 1px solid #BFBFBF;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px 10px;
+        color: #8B758B;
+      }
+
+      .contact > form > button {
+        margin: 35px auto 0px;
+        padding: 15px 45px;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: white;
+        background-color: #233451;
+        border: none;
+        cursor: pointer;
+      }
