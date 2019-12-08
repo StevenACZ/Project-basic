@@ -64,7 +64,7 @@ MAIN
     .hero > div {
       color: white;
       position: absolute;
-      padding: 15px;
+      padding: 10px;
       font-size: 25px;
       top: 255px;
       left: 300px;
@@ -73,6 +73,10 @@ MAIN
       background-color: rgba(114, 153, 254, 0.5);
       border-radius: 10px;
     }
+
+      .hero > div > h2 {
+        padding: 0;
+      }
 
   /*---------------
   ABOUT
@@ -98,6 +102,7 @@ MAIN
       padding: 18px 59px;
       border: none;
       background-color: #D16FFF;
+      cursor: pointer;
     }
     
   /*-----------------
