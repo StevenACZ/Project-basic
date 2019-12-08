@@ -95,29 +95,25 @@ MAIN
     PORTFOLIO
     -----------------*/
     .portfolio {
-        background-color: #FFD233;
-        height: 400px;
+      background-color: #FFD233;
+      height: 400px;
     }
-
-      .portfolio > .portfolio_container {
-        width: 600px;
-        margin: 20px auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-      }
-
-        .portfolio > .portfolio_container > figure {
-          margin-bottom: 10px;
-        }
 
     /*-----------------
     CLIENTS
     -----------------*/
     .clients {
         background-color: #3F4E62;
-        height: 200px;
+        height: 230px;
     }
+
+      .clients > .clients_container {
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
 
     /*-----------------
     CONTACT
