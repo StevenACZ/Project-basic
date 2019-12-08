@@ -136,3 +136,25 @@ MAIN
             padding: 10px;
             width: 185px;
           }
+
+  /*-----------------
+  PORTFOLIO
+  -----------------*/
+  .portfolio {
+    background-color: #FFD233;
+    height: 400px;
+  }
+
+    .portfolio > .portfolio_container {
+      width: 600px;
+      margin: 20px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+      .portfolio > .portfolio_container > figure {
+        margin-bottom: 10px;
+      }
+
+    
